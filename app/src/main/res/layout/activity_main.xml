@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/aucompleteTxtViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:hint="Search Country"
+        android:completionHint="Select Country"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:onClick="showAlert"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Show Alert" />
+
+</LinearLayout>
